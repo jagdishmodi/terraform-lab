@@ -3,6 +3,7 @@ resource "aws_instance" "ec2-exist" {
      instance_type = "t2.micro"
      tags = {
        Name = "training"
-       env = "prod"
+       env = "DR"
+       
      }
 } 
